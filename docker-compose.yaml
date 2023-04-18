@@ -1,0 +1,6 @@
+services:
+  lab1:
+    image: ubuntu:latest
+    stdin_open: true
+    tty: true 
+    entrypoint: /bin/bash
